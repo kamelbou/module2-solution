@@ -8,24 +8,30 @@ h1 {
 
 p.subtitle {
     font-weight: bold;
-    border: solid 2px;    
+    border: solid 2px black;    
 }
 
 #chicken {
     background-color: indianred;
-    float: right;
+    top: 0px;
+    right: 0px;
     margin: 0px;
+    position: absolute;
 }
 #beef {
     background-color: red;
-    float: right;
+    top: 0px;
+    right: 0px;
     margin: 0px;
-    text-decoration-color: white;
+    position: absolute;
+    color:white
 }
 #sushi {
     background-color: khaki;
-    float: right;
+    top: 0px;
+    right: 0px;
     margin: 0px;
+    position: absolute;
 }
 
 .row {
@@ -37,6 +43,7 @@ p.subtitle {
     background-color: gray;
     border: solid 2px;
     position: relative;
+    padding: 10px;
 }
 
 /** Desktop device only **/
