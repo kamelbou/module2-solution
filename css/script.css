@@ -11,6 +11,9 @@ body {
     background-color: gray;
     border: solid 2px;
     position: relative;
+}
+
+.dummy_text {
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 20px;
