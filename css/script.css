@@ -2,13 +2,33 @@
     box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+    margin: 10px;
+    background-color: gray;
+    border: solid 2px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 p.subtitle {
     font-weight: bold;
-    border: solid 2px black;    
+    border: solid 2px black;  
+    padding-right: 30px;  
+    padding-left: 30px;
+    border-block-start: none;
+    border-right-style:none;
+    font-size: 1.25em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
 }
 
 #chicken {
@@ -24,7 +44,7 @@ p.subtitle {
     right: 0px;
     margin: 0px;
     position: absolute;
-    color:white
+    color:white;
 }
 #sushi {
     background-color: khaki;
@@ -36,14 +56,6 @@ p.subtitle {
 
 .row {
     width: 100%;
-}
-
-.text {
-    margin: 10px;
-    background-color: gray;
-    border: solid 2px;
-    position: relative;
-    padding: 10px;
 }
 
 /** Desktop device only **/
